@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+​
+body {
+    background-color: #6f69b6;
+    line-height: 1.6;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
+}
+​
+a {
+    text-decoration: none;
+    color: #6f69b6;
+}
+​
+​
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1em;
+}
+​
+.brand {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+​
+.login-msg {
+    text-align: center;
+}
+​
+img {
+    display: none;
+}
+​
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+​
+.wrapper > * {
+    padding: 1em;
+}
+​
+.contact {
+    background-color: #fff;
+    color: #000;
+}
+​
+.contact h2 {
+    text-align: center;
+    font-weight: 400;
+    padding: 0 0 1rem 0;
+}
+​
+/*FORM STYLES*/
+​
+.contact form  label {
+    display: block;
+}
+​
+.contact form button, .contact form input {
+    width: 100%;
+    padding: 1em;
+}
+​
+.contact form .btn-login {
+    background-color:#6f69b6;
+    border: 0;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #fff;
+}
+​
+.contact form .btn-signup {
+    background-color: #fff;
+    border: 1px solid #6f69b6;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+​
+.contact form .anchor {
+    text-align: center;
+}
+​
+​
+.contact form input {
+    border: 1px solid #333;
+    border-radius: 5px;
+    outline: none;
+}
+​
+.contact form .btn-signup:hover, .contact form .btn-signup:focus {
+    background-color: #6f69b6;
+    color: #fff;
+}
+​
+.contact form input:focus {
+    box-shadow: 0 0 4px 0 #6f69b6;
+} 
+​
+​
+​
+/*LARGE SCREENS */
+​
+@media screen and (min-width:700px) {
+    .wrapper {
+        display: block;
+        float: right;
+        width: 500px;
+    }
+​
+    .wrapper > * {
+        padding: 2em;
+    }
+​
+    .direct-msg {
+        float: left;
+        width: 
+    }
+​
+    .brand, .login-msg {
+        text-align: left;
+    }  
+​
+    .brand {
+        font-size: 32px;
+    }
+​
+    .login-msg {
+        font-size: 18px;
+    }
+​
+    img {
+        display: block;
+    }
+}
